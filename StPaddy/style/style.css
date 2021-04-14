@@ -1,0 +1,16 @@
+#jumbotron{
+    display: inline-block;
+    color: green;
+}
+#jumbotron img{
+
+    float: left;
+}
+h1{
+    color: green;
+    width: 300px;
+    float: left;
+}
+body{
+    background-color: aquamarine;
+}

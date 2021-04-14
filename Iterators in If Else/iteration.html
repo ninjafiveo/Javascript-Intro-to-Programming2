@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+<!-- #region Part 1... not for guessing Game -->
+<!-- <div>
+        <input type="button" value="Click me" onclick="looperino()">
+        <input type="button" value="Clear" onclick="clearField()">
+        <p id="demo"></p>
+        <br>
+        <hr>
+        <br>
+</div> -->
+<!-- #endregion Part 1-->
+        <h1>Guess My Number</h1>
+        <input id="numb">
+        <button id="submitBtn" type="button" onclick="myFunction()">Submit</button>
+        <button id="startBtn" type="button" onclick="startFunction()">Start</button>
+        <p id="response"></p>
+        <p id="answer"></p>
+        <p id="yourGuess"></p>
+        <p>Number Correct:</p><p id="numberCorrect">0</p>
+        <hr>
+        <hr>
+        <p>Guessed Numbers:</p>
+        <h3 id="numbersGuessed">0</h3>
+        <hr>
+        <hr>
+        <p>Score Counter:</p>
+        <h3 id="playerScore">0</h3>
+
+
+        <script src="iteration.js"></script>
+    </body>
+</html>

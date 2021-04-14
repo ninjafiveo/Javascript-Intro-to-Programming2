@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#banner{
+    font-size: xx-large;
+}
+
+#banner, #content{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:hover{
+    color:deepskyblue;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 40%; 
+    margin-top: 30px;
+    
+}
+
+#logo:hover{
+    /* box-shadow: 0 1px 20px 20px rgba(255, 255, 255, 0.5); */
+    width: 45%; 
+    transform: rotate(-15deg);
+    z-index: 100;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px){
+
+    #logo{
+        width: 65%; 
+        margin-top: 20px;
+        
+    }
+    #logo:hover{
+        /* box-shadow: 0 1px 20px 20px rgba(255, 255, 255, 0.5); */
+        width: 75%; 
+    }
+
+    #banner, #content{
+        width: 90%;
+    }
+    #banner{
+        font-size: x-large;
+    }
+}

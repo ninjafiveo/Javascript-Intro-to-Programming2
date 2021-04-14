@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+#yourQuestion {
+	height: 300px;
+	width: 1000px;
+}
+
+
+
+#eightBallImage{
+	width: 300px;
+}
+
+
+#questionArea{
+	background-color: black;
+	padding: 50px;
+	color: white;
+	margin: 20px 0px 20px 0px;
+}
+
+#answerLine{
+	color: yellow;
+}
+
+#imageSection{
+	padding: 20px;
+}
+
+header{
+	padding: 20px;
+}
